@@ -1,0 +1,18 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(59, 51, 51);
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: rgb(206, 107, 25);
+    transition: .5s;
+}
+a:hover{
+    color: rgb(170, 81, 8);
+}

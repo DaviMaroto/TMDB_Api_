@@ -10,7 +10,7 @@ const Navbar = () => {
       <form>
         <input type="text" placeholder='Pesquisar um filme'/>
         <button type='submit'>
-            <BiSearchAlt2/>
+            <BiSearchAlt2/> 
         </button>
       </form>
     </nav>
