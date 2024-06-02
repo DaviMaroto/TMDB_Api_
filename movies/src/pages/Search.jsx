@@ -4,7 +4,7 @@ import MovieCard from "../components/MovieCard"
 
 import "./MoviesGrid.css"
 
-const seachUrl = import.meta.env.VITE_SEARCH
+const searchURL = import.meta.env.VITE_SEARCH
 const apiKey = import.meta.env.VITE_API_KEY 
 
 
@@ -14,6 +14,17 @@ const Search = () => {
     const [movies, setMovies] = useState([])
     const query = searchParams.get("q")
    
+    const getSearcheMovies = async (url) => {
+      const res = await fetch(url); 
+      const data = await res.json();
+  
+      setMovies(data.results)
+    }
+    useEffect(() =>{
+      const searchWithQueryUrl = `${searchURL}?${apiKey}&query=${query}`;
+      getSearcheMovies(searchWithQueryUrl)
+    },[query])
+
     return (
       <div className="container">
       <h2 className="title">Resultados: <span className="query-text">{query}</span></h2>
