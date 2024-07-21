@@ -1,2 +1,3 @@
 ## Página Principal
-![screencapture-localhost-5173-2024-06-03-12_15_15](https://github.com/DaviMaroto/TMDB_Api_/assets/78991972/4fec48f9-8295-4f59-86b7-b76c9be5a100)
+![screencapture-localhost-5173-2024-07-21-16_17_31](https://github.com/user-attachments/assets/8e572f48-135c-4007-89c8-14eb258b5e36)
+
