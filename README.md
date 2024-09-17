@@ -8,7 +8,7 @@
   - Faturamento
   - Duração
   - Descrição
-  - -Avaliação
+  - Avaliação
 ### Visual da Aplicação:
 ![image](https://github.com/user-attachments/assets/529c7367-e973-4ec8-8990-2841c01e3391)
 
