@@ -1,5 +1,5 @@
 # TMDB API
-- Essa projeto tem como objetivo consumir dados da API TMDB, realizando requisições para retornar os dados dos filmes. 
+- Esse projeto tem como objetivo consumir dados da API TMDB, realizando requisições para retornar os dados dos filmes. 
 ## Funcionalidade:
 - Listar os melhores filmes na página principal
 - Buscar Filmes na API
